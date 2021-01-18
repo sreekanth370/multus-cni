@@ -1,5 +1,9 @@
 os: linux
 language: go
+arch:
+  - amd64
+  - ppc64le
+
 # see https://docs.travis-ci.com/user/reference/overview/#Virtualization-environments
 # for the detail
 # sudo: requried
